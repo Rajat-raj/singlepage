@@ -1,0 +1,116 @@
+body, html{
+    font-family: noto;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-logo{
+    color: #EAA33E;
+    display:flex;
+    align-items: center;
+}
+.main-logo .logo-title{
+    font-size:48px;
+    font-weight: 400;
+}
+.main-logo .logo-title span{
+    font-weight: 900;
+}
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s esae;
+}
+input[type="text"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s esae;
+}
+input[type="submit"]
+{
+    margin-left: 20%;
+    padding: 1% 4%;
+    color: #6A5F5F;
+    
+    
+    text-align: center;
+    border-radius: 50px;
+    background-color: #EAA33E;
+}
+.iform{
+    padding: 5% 0%;
+}
+.frshed{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EAA33E;
+}
+
+.seched{
+    color: #EAA33E;
+    font-size: 30px;
+}
+.pahra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+.container{
+    position:relative;
+    width:900px;
+    height:500px;
+    display:flex;
+    /* background-color: rgba(218, 218, 218, 0.822); */
+}
+.container .panels{
+    position:absolute;
+    top:0;
+    width:50%;
+    height:100%;
+}
+.container .left-panel{
+    left:0;
+}
+.container .left-panel img{
+    width: 10%;
+    hight: 10%;
+    padding: 10px;
+}
+.container .right-panel{
+    right:0;
+    background:rgb(63, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .right-panel img{
+    width:50%;
+    height:50%;
+}
+
+
